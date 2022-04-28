@@ -4,6 +4,7 @@ npm run server.\
 npm start
 
 # Preview
+Simulated with a slow connection in order to check the placeholder (skeletons) while data is loading.
 <div style="display: flex; justify-content: center; margin-bottom: 20px">
 <img src="./demo.gif" width="764" height="486"/>
 </div>
