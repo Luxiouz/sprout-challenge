@@ -1,5 +1,5 @@
 # Deployment in local env
-
+deployment version: [https://luxiouz.github.io/sprout-challenge/](https://luxiouz.github.io/sprout-challenge/).\
 npm run server.\
 npm start
 
