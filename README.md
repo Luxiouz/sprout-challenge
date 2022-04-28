@@ -1,6 +1,6 @@
 # Deployment in local env
 
-npm run server
+npm run server.\
 npm start
 
 # Getting Started with Create React App
