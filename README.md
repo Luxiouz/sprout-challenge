@@ -1,6 +1,12 @@
-# Deployment in local env
+
+# Launch
 npm run server.\
 npm start
+
+# Preview
+<div style="display: flex; justify-content: center; margin-bottom: 20px">
+<img src="./demo.gif" width="764" height="486"/>
+</div>
 
 # Getting Started with Create React App
 
