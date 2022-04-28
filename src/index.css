@@ -7,7 +7,69 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+header{
+  height: fit-content;
+}
+
+header > h1{
+  position: fixed;
+  top: 0;
+  background: linear-gradient(rgba(224,71,86,1), rgba(134,93,198,0.5)); ;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.flight-page{
+  margin-top: 7rem;
+}
+
+.flight-board {
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.flight-board > div:first-child {
+  margin-bottom: 1rem
+}
+
+.flight-board__row > div{
+  background-color: white;
+  border-radius: 16px;
+}
+
+.flight-board__row p, .flight-board__row span {
+  font-size: 0.9rem;
+}
+
+.flight-board__row img{
+  background-color: beige;
+  height: 60px;
+  width: 60px;
+  border-radius: 8px;
+}
+
+.flight-board__row h2{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.divider{
+  width:  160px;
+  background-color: #D2D5DB;
+  border: 2.75px #D2D5DB solid;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) { 
+  .divider{
+    width: 220px;
+  }
+}
+
+.modal-ku {
+  width: 750px;
+  margin: auto;
 }
